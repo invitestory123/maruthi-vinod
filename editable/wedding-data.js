@@ -32,7 +32,7 @@ window.WEDDING_DATA = {
       timeLabel: "8:38 PM sharp",
       startISO: "2026-11-25T20:38:00+05:30",
       endISO: "2026-11-25T23:30:00+05:30",
-      note: "The sacred ceremony — please be seated by 8:00 PM.",
+      note: "",
       icon: "fire",
     },
   ],
