@@ -22,6 +22,10 @@
     <meta name="twitter:image" content="./editable/assets/couple.webp" />
     <!-- ▲▲ OpenGraph & Social Metadata ▲▲ -->
 
+    <link rel="stylesheet" crossorigin href="assets/index-yVHCWpVH.css">
+    <script src="./editable/wedding-data.js"></script>
+    <script type="module" crossorigin src="assets/index-BcS--ptf.js"></script>
+
     <style>
       /* Floating Music Toggle Button */
       .music-toggle-btn {
@@ -77,11 +81,21 @@
         from { transform: rotate(0deg); }
         to { transform: rotate(360deg); }
       }
-    </style>
 
-    <script src="./editable/wedding-data.js"></script>
-    <script type="module" crossorigin src="assets/index-BcS--ptf.js"></script>
-    <link rel="stylesheet" crossorigin href="assets/index-yVHCWpVH.css">
+      /* Footer couple outline names styling — ensures full names are fully visible without clipping on mobile screens */
+      .text-outline-gold {
+        font-size: clamp(20px, 7.8vw, 42px) !important;
+        letter-spacing: 0.02em !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        white-space: nowrap !important;
+      }
+      @media (min-width: 640px) {
+        .text-outline-gold {
+          font-size: min(7vw, 56px) !important;
+        }
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>

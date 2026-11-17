@@ -20,7 +20,7 @@ window.WEDDING_DATA = {
     muhurthamTimeLabel: "Muhurtham at 8:38 PM",
     muhurthamISO: "2026-11-25T20:38:00+05:30",
     inviteLine1: "With the divine blessings of Lord Ganesha and our elders,",
-    inviteLine2: "we joyfully invite you and our family to the wedding muhurtham of our beloved children. Your presence is the greatest gift — please come, bless the couple, and celebrate with us.",
+    inviteLine2: "we joyfully invite you and our family to the wedding muhurtham of Maruthi & Vinod. Your presence is the greatest gift — please come, bless the couple, and celebrate with us.",
   },
 
   events: [
