@@ -50,6 +50,7 @@ window.WEDDING_DATA = {
     couple: "./editable/assets/couple.webp",
     garlandTop: "./editable/assets/garland-top.webp",
     mandapFooter: "./editable/assets/mandap-footer.webp",
+    ogImage: "./assets/og-image.jpg",
   },
 
   bgm: {
